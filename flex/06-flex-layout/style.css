@@ -39,12 +39,23 @@ ul {
   margin: 0 20px 0 0;
 }
 
-.left-links, .right-links{
-  display: flex;
-  gap: 12px;
+.footer{
+  background-color: #eee;
 }
 
-.content, .buttons {
-  /*display: flex;*/
-  align-self: center;
+.left-links, .right-links{
+  display: flex;
+  gap: 16px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #666;
 }
